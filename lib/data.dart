@@ -8,6 +8,7 @@ final List<Recipe> Uppskriftir = [
     imagePath: "Assets/green-salad.jpg",
     isVegan: true,
     isLactoseFree: true,
+    isGlutenFree: true,
   ),
   Recipe(
     title: "Cheese Omelette",
@@ -15,6 +16,7 @@ final List<Recipe> Uppskriftir = [
     imagePath: "Assets/Omelette.jpeg",
     isVegan: false,
     isLactoseFree: false,
+    isGlutenFree: false,
 
   ),
   Recipe(
@@ -23,6 +25,7 @@ final List<Recipe> Uppskriftir = [
     imagePath: "Assets/Smoothie.jpeg",
     isVegan: true,
     isLactoseFree: true,
+    isGlutenFree: true,
   ),
 
 ];

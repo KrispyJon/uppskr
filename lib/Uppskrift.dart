@@ -3,6 +3,7 @@ class Recipe {
   final List<String> ingredients;
   final bool isVegan;
   final bool isLactoseFree;
+  final bool isGlutenFree;
   final String imagePath;
 
   Recipe({
@@ -10,6 +11,7 @@ class Recipe {
     required this.ingredients,
     required this.isVegan,
     required this.isLactoseFree,
+    required this.isGlutenFree,
     required this.imagePath,
   });
 }
