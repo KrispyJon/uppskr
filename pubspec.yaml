@@ -52,6 +52,19 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  fonts:
+    - family: SpitShine
+      fonts:
+        - asset: Assets/fonts/SpitShine-y80Y.ttf
+          weight: 700
+    - family: Balsoon
+      fonts:
+        - asset: Assets/fonts/Balsoon.ttf
+          weight: 700
+    - family: ArchitectsDaughter
+      fonts:
+        - asset: Assets/fonts/ArchitectsDaughter.ttf
+          weight: 700
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -60,6 +73,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+   - Assets/LOGO_RECIPE_APP.png
    - Assets/green-salad.jpg
    - Assets/Omelette.jpeg
    - Assets/Smoothie.jpeg
