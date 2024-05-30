@@ -34,39 +34,52 @@ class RecipeListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Filtered Recipes'),
+        title: const Text('Valdar Uppskriftir'),
+        titleTextStyle: const TextStyle(
+          fontSize: 45,
+          fontFamily: 'Balsoon',
+          fontWeight: FontWeight.bold,
+        ),
+        backgroundColor: Colors.lightBlueAccent,
       ),
       body: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Colors.blue, Colors.purple],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
+          color: Colors.white10,
         ),
         child: ListView.builder(
           itemCount: filteredRecipes.length,
           itemBuilder: (context, index) {
             final recipe = filteredRecipes[index];
-            return ListTile(
-              leading: recipe.imagePath.isNotEmpty
-                  ? Image.asset(
-                recipe.imagePath,
-                width: 50,
-                height: 50,
-                fit: BoxFit.cover,
-              )
-                  : const SizedBox(width: 50, height: 50),
-              title: Text(recipe.title),
-              subtitle: Text(recipe.ingredients.join(', ')),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => RecipeDetailScreen(recipe: recipe),
+            return Column(
+              children: [
+                ListTile(
+                  leading: recipe.imagePath.isNotEmpty
+                      ? Image.asset(
+                    recipe.imagePath,
+                    width: 50,
+                    height: 50,
+                    fit: BoxFit.cover,
+                  )
+                      : const SizedBox(width: 50, height: 50),
+                  title: Text(
+                    recipe.title,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.orangeAccent,
+                      fontSize: 18,
+                    ),
                   ),
-                );
-              },
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => RecipeDetailScreen(recipe: recipe),
+                      ),
+                    );
+                  },
+                ),
+                if (index != filteredRecipes.length - 1) const Divider(),
+              ],
             );
           },
         ),

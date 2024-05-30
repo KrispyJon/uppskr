@@ -65,6 +65,10 @@ flutter:
       fonts:
         - asset: Assets/fonts/ArchitectsDaughter.ttf
           weight: 700
+    - family: fenwick outline
+      fonts:
+        - asset: Assets/fonts/fenwick outline.otf
+          weight: 700
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -76,7 +80,37 @@ flutter:
    - Assets/LOGO_RECIPE_APP.png
    - Assets/green-salad.jpg
    - Assets/Omelette.jpeg
-   - Assets/Smoothie.jpeg
+   - Assets/myndir/BAUNABORGARI.jpg
+   - Assets/myndir/BEIKONKJÚLLI_KETO.jpeg
+   - Assets/myndir/BROCCOLI_VEGGIE.jpg
+   - Assets/myndir/GRÆNMETIS_LASAGNE.jpg
+   - Assets/myndir/GRÆNMETIS-KARRÝ-KÓKOSSÚPA.jpeg
+   - Assets/myndir/GRÆNMETISBAKA.jpeg
+   - Assets/myndir/GRANÍTERAÐUR_KETOFISKUR.jpeg
+   - Assets/myndir/GRÍSKUR_KJÚKLINGUR_OLIFUR.jpeg
+   - Assets/myndir/GULRÓTARSÚPA.jpeg
+   - Assets/myndir/HUMARPASTA.jpeg
+   - Assets/myndir/HVÍTLAUKSKARTÖFLUR.jpg
+   - Assets/myndir/HVÍTLAUKSRISTAÐ_BLÓMKÁL.jpeg
+   - Assets/myndir/ÍTALSKAR_KJÖTBOLLUR.jpeg
+   - Assets/myndir/KETO_BAKA.jpeg
+   - Assets/myndir/KETÓ_HAMBORGARASTEIK.jpeg
+   - Assets/myndir/KETO_KJÖTBOLLUR.jpeg
+   - Assets/myndir/KETÓ_REYKT_ÝSA.jpeg
+   - Assets/myndir/KETO_TAILENSKUR_FISKUR.jpeg
+   - Assets/myndir/KETO_TERTA.jpeg
+   - Assets/myndir/KJÚKLINGAPASTA.jpg
+   - Assets/myndir/PASTA_CARBONARA.jpeg
+   - Assets/myndir/PASTA_CHILI.jpeg
+   - Assets/myndir/PASTA_M_REYKTUM_LAXI.jpeg
+   - Assets/myndir/PASTA_SPÍNAT_CANNELONI.jpeg
+   - Assets/myndir/RAUÐRÓFUPOTTRÉTTUR.jpeg
+   - Assets/myndir/SÆLKERAPASTA_M_PESTO_KJÚK.jpg
+   - Assets/myndir/TAGLIATELLE_KJÚKLING_RJÓMAPESTÓ.jpeg
+   - Assets/myndir/MACNCHEESE.jpeg
+   - Assets/myndir/BAKAÐAR_KARTÖFLUR_RÓSAKÁL.jpeg
+   - Assets/myndir/BRAUNARÉTTUR_FRÁ_RWANDA.jpeg
+   - Assets/myndir/SÍMABAKGRUNNUR.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

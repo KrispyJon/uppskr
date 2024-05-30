@@ -45,20 +45,15 @@ class _FilterScreenState extends State<FilterScreen> {
       ),
       body: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Colors.blueAccent, Colors.deepPurple],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
+
         ),
         child: Column(
           children: <Widget>[
             SwitchListTile(
               title: const Text('Viltu vegan máltíð?',
               style: TextStyle(
-                fontFamily: 'ArchitectsDaughter',
-                fontSize: 22,
-                color: Colors.white,
+                fontSize: 19,
+                color: Colors.orangeAccent,
                 fontWeight: FontWeight.bold,
               ),
               ),
@@ -73,9 +68,8 @@ class _FilterScreenState extends State<FilterScreen> {
             SwitchListTile(
               title: const Text('Viltu Laktósa-fría máltíð?',
               style: TextStyle(
-                fontFamily: 'ArchitectsDaughter',
-                fontSize: 22,
-                color: Colors.white,
+                fontSize: 19,
+                color: Colors.orangeAccent,
                 fontWeight: FontWeight.bold
               ),
               ),
@@ -90,9 +84,8 @@ class _FilterScreenState extends State<FilterScreen> {
             SwitchListTile(
               title: const Text('Viltu glútein-lausa máltíð?',
                 style: TextStyle(
-                    fontFamily: 'ArchitectsDaughter',
-                    fontSize: 22,
-                    color: Colors.white,
+                    fontSize: 19,
+                    color: Colors.orangeAccent,
                     fontWeight: FontWeight.bold
                 ),
               ),
@@ -107,9 +100,8 @@ class _FilterScreenState extends State<FilterScreen> {
             SwitchListTile(
               title: const Text('Viltu grænmetismáltíð?',
                 style: TextStyle(
-                    fontFamily: 'ArchitectsDaughter',
-                    fontSize: 22,
-                    color: Colors.white,
+                    fontSize: 19,
+                    color: Colors.orangeAccent,
                     fontWeight: FontWeight.bold
                 ),
               ),
@@ -124,9 +116,8 @@ class _FilterScreenState extends State<FilterScreen> {
             SwitchListTile(
               title: const Text('Viltu Ketó-máltíð?',
                 style: TextStyle(
-                    fontFamily: 'ArchitectsDaughter',
-                    fontSize: 22,
-                    color: Colors.white,
+                    fontSize: 19,
+                    color: Colors.orangeAccent,
                     fontWeight: FontWeight.bold
                 ),
               ),
@@ -140,7 +131,7 @@ class _FilterScreenState extends State<FilterScreen> {
             const Divider(),
             ElevatedButton(
               onPressed: _navigateToRecipeList,
-              child: const Text('Show Recipes'),
+              child: const Text('Sjá uppskriftir'),
             ),
           ],
         ),

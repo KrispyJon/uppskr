@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uppskr/start_screen.dart'; // Import the new start screen
+import 'package:uppskr/start_screen.dart';
 
 void main() {
   runApp(const UppskriftarApp());
@@ -14,7 +14,7 @@ class UppskriftarApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const StartScreen(), // Start with the StartScreen
+      home: const StartScreen(),
     );
   }
 }

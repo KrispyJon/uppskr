@@ -16,46 +16,43 @@ class StartScreen extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Colors.blueAccent, Colors.deepPurple],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
+          image: DecorationImage(
+            image: AssetImage('Assets/myndir/SÍMABAKGRUNNUR.jpg'),
+            fit: BoxFit.cover,
           ),
         ),
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Image.asset(
-                'Assets/LOGO_RECIPE_APP.png',
-                width: 250,
-                height: 250,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Image.asset(
+              'Assets/LOGO_RECIPE_APP.png',
+              width: 500,
+              height: 250,
+            ),
+            const SizedBox(height: 50),
+            const Text(
+              'Finndu hina fullkomnu uppskrift !',
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'fenwick outline',
               ),
-              const SizedBox(height: 30),
-              const Text(
-                'Finndu hina fullkomnu uppskrift!',
-                style: TextStyle(
-                  fontSize: 35,
-                  color: Colors.white,
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 50),
+            ElevatedButton(
+              onPressed: () => _navigateToFilterScreen(context),
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.blueAccent, backgroundColor: Colors.white,
+                textStyle: const TextStyle(
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  fontFamily: 'Balsoon',
                 ),
-                textAlign: TextAlign.center,
               ),
-              const SizedBox(height: 30),
-              ElevatedButton(
-                onPressed: () => _navigateToFilterScreen(context),
-                style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.blueAccent, backgroundColor: Colors.white,
-                  textStyle: const TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                child: const Text('Af stað!'),
-              ),
-            ],
-          ),
+              child: const Text('Af stað!'),
+            ),
+          ],
         ),
       ),
     );
