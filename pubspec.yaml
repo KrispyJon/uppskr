@@ -111,6 +111,7 @@ flutter:
    - Assets/myndir/BAKAÐAR_KARTÖFLUR_RÓSAKÁL.jpeg
    - Assets/myndir/BRAUNARÉTTUR_FRÁ_RWANDA.jpeg
    - Assets/myndir/SÍMABAKGRUNNUR.jpg
+   - Assets/myndir/TÓMATASÚPA.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

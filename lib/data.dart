@@ -31,6 +31,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -62,6 +63,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -94,10 +96,11 @@ final List<Recipe> Uppskriftir = [
     ],
     imagePath: "Assets/myndir/BAUNABORGARI.jpg", // Ensure the path is correct
     isVegan: false,
-    isLactoseFree: true,
+    isLactoseFree: false,
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -130,6 +133,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -177,6 +181,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -215,6 +220,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -248,6 +254,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -279,6 +286,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -320,6 +328,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -339,10 +348,10 @@ final List<Recipe> Uppskriftir = [
       " ",
       "Aðferð: ",
       " ",
-      " - Mýkið laukinn í olíu í um 10 mín. en passið að hann brenni ekki. "
-      " - Kryddið og bætið rauðrófum, sætum kartöflubitum og kókosmjólk út í og sjóði í minnst 1 klst."
-      " - Skreytið að lokum með þurristuðum kókosflögum."
-      " - Borið fram með fersku salati, brauði og pestó."
+      " - Mýkið laukinn í olíu í um 10 mín. en passið að hann brenni ekki.",
+      " - Kryddið og bætið rauðrófum, sætum kartöflubitum og kókosmjólk út í og sjóði í minnst 1 klst.",
+      " - Skreytið að lokum með þurristuðum kókosflögum.",
+      " - Borið fram með fersku salati, brauði og pestó.",
     ],
     imagePath: "Assets/myndir/RAUÐRÓFUPOTTRÉTTUR.jpeg",
     isVegan: true,
@@ -350,6 +359,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
   Recipe(
@@ -374,11 +384,12 @@ final List<Recipe> Uppskriftir = [
       " - Bakið í 40 mínútur og berið strax fram."
     ],
     imagePath: "Assets/myndir/KETO_BAKA.jpeg",
-    isVegan: true,
-    isLactoseFree: true,
+    isVegan: false,
+    isLactoseFree: false,
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -412,11 +423,12 @@ final List<Recipe> Uppskriftir = [
       " - Skerið beikonið í bita og stráið yfir réttinn áður en hann er borinn fram."
     ],
     imagePath: "Assets/myndir/BEIKONKJÚLLI_KETO.jpeg",
-    isVegan: true,
-    isLactoseFree: true,
+    isVegan: false,
+    isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -429,7 +441,7 @@ final List<Recipe> Uppskriftir = [
       "250 ml rjómi frá Gott í matinn",
       "1⁄2 askja smurostur með papriku",
       "1 Dalacamembert, skorinn í bita",
-      "1 tsk. dijonsinn­ep",
+      "1 tsk. dijonsinnep",
       "1 tsk. paprikukrydd",
       "1⁄2 grænmetisteningur",
       "rifinn gratínostur frá Gott í matinn, góð handfylli",
@@ -450,8 +462,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -480,8 +493,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -520,6 +534,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -550,8 +565,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -586,8 +602,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -624,8 +641,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -654,8 +672,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -684,6 +703,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: true,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: false,
   ),
 
 
@@ -726,6 +746,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -758,8 +779,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: false,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: true,
+    isNutFree: true,
   ),
 
 
@@ -798,9 +820,10 @@ final List<Recipe> Uppskriftir = [
     imagePath: "Assets/myndir/HUMARPASTA.jpeg",
     isVegan: false,
     isLactoseFree: false,
-    isGlutenFree: true,
-    isVegetarian: true,
+    isGlutenFree: false,
+    isVegetarian: false,
     isKeto: false,
+    isNutFree: false,
   ),
 
 
@@ -840,8 +863,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -884,8 +908,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: true,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -924,6 +949,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -958,6 +984,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: false,
+    isNutFree: false,
   ),
 
 
@@ -997,8 +1024,9 @@ final List<Recipe> Uppskriftir = [
     isVegan: false,
     isLactoseFree: false,
     isGlutenFree: false,
-    isVegetarian: true,
+    isVegetarian: false,
     isKeto: false,
+    isNutFree: true,
   ),
 
 
@@ -1043,6 +1071,7 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: true,
     isKeto: false,
+    isNutFree: false,
   ),
 
 
@@ -1076,8 +1105,41 @@ final List<Recipe> Uppskriftir = [
     isGlutenFree: false,
     isVegetarian: false,
     isKeto: false,
+    isNutFree: false,
   ),
+  Recipe(
+    title: "Tómatasúpa",
+    ingredients: [
+      "2 Paprikur",
+      "4 Stórir tómatar",
+      "8 Kirsuberjatómatar",
+      "1 Chili",
+      "4 Hvítlauksgeirar",
+      "1 Laukur",
+      "Salt & Pipar",
+      "Ólífuolía",
+      "Parmasan",
+      "Sýrður rjómi",
+      " ",
+      "Aðferð: ",
+      " ",
+          " - Skerið niður Tómatana, paprikuna, laukinn og chili-ið og setjið í eldfast mót.",
+          " - Takið hýðið af hvítlauksgeirunum og stráið þeim yfir í heilu lagi.",
+          " - Setjið olíu, nóg af salti og pipar á allt saman.",
+          " - Setjið í ofninn í 35 mínútur og hrærið í á 10 mínútunna fresti.",
+          " - Setjið allt úr eldfasta mótinu í stórann pott og setjið á lágann hita.",
+          " - Notiði töfrasprota til þess að mauka grænmetið, bætið við vatni ef þarf að þynna.",
+          " - Berið fram með sýrðum rjóma og/eða rifnum parmasan osti",
 
+    ],
+    imagePath: "Assets/myndir/TÓMATASÚPA.jpeg",
+    isVegan: true,
+    isLactoseFree: true,
+    isGlutenFree: true,
+    isVegetarian: true,
+    isKeto: true,
+    isNutFree: true,
+  ),
 
 
 

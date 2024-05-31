@@ -9,6 +9,7 @@ class RecipeListScreen extends StatelessWidget {
   final bool isGlutenFree;
   final bool isVegetarian;
   final bool isKeto;
+  final bool isNutFree;
 
   const RecipeListScreen({
     Key? key,
@@ -17,6 +18,7 @@ class RecipeListScreen extends StatelessWidget {
     required this.isGlutenFree,
     required this.isVegetarian,
     required this.isKeto,
+    required this.isNutFree,
   }) : super(key: key);
 
   List<Recipe> get filteredRecipes {
@@ -26,6 +28,7 @@ class RecipeListScreen extends StatelessWidget {
       if (isGlutenFree && !recipe.isGlutenFree) return false;
       if (isVegetarian && !recipe.isVegetarian) return false;
       if (isKeto && !recipe.isKeto) return false;
+      if (isNutFree && !recipe.isNutFree) return false;
       return true;
     }).toList();
   }

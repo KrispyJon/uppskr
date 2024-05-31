@@ -6,6 +6,7 @@ class Recipe {
   final bool isGlutenFree;
   final bool isVegetarian;
   final bool isKeto;
+  final bool isNutFree;
   final String imagePath;
 
   Recipe({
@@ -16,6 +17,7 @@ class Recipe {
     required this.isGlutenFree,
     required this.isVegetarian,
     required this.isKeto,
+    required this.isNutFree,
     required this.imagePath,
   });
 }

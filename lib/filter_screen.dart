@@ -14,6 +14,7 @@ class _FilterScreenState extends State<FilterScreen> {
   bool isGlutenFree = false;
   bool isVegetarian = false;
   bool isKeto = false;
+  bool isNutFree = false;
 
   void _navigateToRecipeList() {
     Navigator.push(
@@ -25,6 +26,7 @@ class _FilterScreenState extends State<FilterScreen> {
           isGlutenFree: isGlutenFree,
           isVegetarian: isVegetarian,
           isKeto: isKeto,
+          isNutFree: isNutFree,
         ),
       ),
     );
@@ -50,7 +52,7 @@ class _FilterScreenState extends State<FilterScreen> {
         child: Column(
           children: <Widget>[
             SwitchListTile(
-              title: const Text('Viltu vegan máltíð?',
+              title: const Text('Viltu Vegan máltíð?',
               style: TextStyle(
                 fontSize: 19,
                 color: Colors.orangeAccent,
@@ -82,7 +84,7 @@ class _FilterScreenState extends State<FilterScreen> {
             ),
             const Divider(),
             SwitchListTile(
-              title: const Text('Viltu glútein-lausa máltíð?',
+              title: const Text('Viltu Glúteinlausa máltíð?',
                 style: TextStyle(
                     fontSize: 19,
                     color: Colors.orangeAccent,
@@ -98,7 +100,7 @@ class _FilterScreenState extends State<FilterScreen> {
             ),
             const Divider(),
             SwitchListTile(
-              title: const Text('Viltu grænmetismáltíð?',
+              title: const Text('Viltu Grænmetismáltíð?',
                 style: TextStyle(
                     fontSize: 19,
                     color: Colors.orangeAccent,
@@ -129,9 +131,30 @@ class _FilterScreenState extends State<FilterScreen> {
               },
             ),
             const Divider(),
+            SwitchListTile(
+              title: const Text('Viltu Hnetulausa máltíð?',
+                style: TextStyle(
+                    fontSize: 19,
+                    color: Colors.orangeAccent,
+                    fontWeight: FontWeight.bold
+                ),
+              ),
+              value: isNutFree,
+              onChanged: (bool value) {
+                setState(() {
+                  isNutFree = value;
+                });
+              },
+            ),
+            const Divider(),
             ElevatedButton(
               onPressed: _navigateToRecipeList,
-              child: const Text('Sjá uppskriftir'),
+              child: const Text('Sjá uppskriftir',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
           ],
         ),
